@@ -1,0 +1,238 @@
+.sidebar {
+    background-color: #ffffff;
+   
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 0px;
+   
+}
+
+@media screen and (max-width:720px){
+    .search-bar {
+        width: 170px;
+    }
+}
+.flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.flexing1 {
+    align-self: flex-end;
+   
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.app-head {
+    font-size: 15px;
+   
+    margin: 15px;
+    color: dimgray;
+    
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    
+}
+
+.search-bar {
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.input {
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
+    border-width: 0px;
+    font-size: 15px;
+    margin: 15px;
+    color: dimgray;
+}
+
+.Earning-report {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.earn-head {
+    font-family: "roboto";
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.earn-para {
+    color:#676e66;
+    font-style: normal;
+    font-size: 15px;
+   
+}
+
+
+.earn-footer {
+    background-color: #ffffff;
+    margin: 5px;
+    height: 110px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bgcolor {
+   color: #a434eb;
+   background-color: #d9c5e3;
+   margin-left: 5px;
+   padding: 2px;
+   margin-top: 5px;
+} 
+
+.bgcolor1 {
+    color: #09e2ed;
+    background-color: #c4f0f2;
+    font-weight: bold;
+    margin-left: 5px;
+   padding: 2px;
+   margin-top: 5px;
+   
+    
+}
+
+.flages {
+    border-radius: 200px;
+    height: 50px;
+    width: 50px;
+}
+
+.bgcolor2 {
+    color: #e84f57;
+    background-color: #f2a7ab;
+}
+
+.paisa {
+    font-size: 20px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.line-before {
+    background:red;
+    width:40%;
+    height:2px;
+}
+.line {
+    background:rgb(46, 204, 231);
+    width: 40%;
+    height:2px;
+}
+
+.line1 {
+    background: #a434eb;
+    width: 40%;
+    height:2px;
+   
+}
+
+.surya {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: scroll;
+}
+.image {
+    height: 200px;
+    width: 200px;
+}
+.vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.Earning-report1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+.green {
+    color: #6af255;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bgcolor3 {
+    color: #02f70b;
+    background-color:#ddeddd;
+    padding: 2px;
+}
+
+.image1 {
+    height: 250px;
+    width: 250px;
+}
+
+.table-container {
+    border-width: 0px;
+    outline: None;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+   
+}
+
+.table-items {
+   margin: 20px;
+}
